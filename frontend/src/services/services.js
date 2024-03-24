@@ -2,7 +2,7 @@ import axios from "axios";
 
 // const baseURL = process.env.NODE_ENV === "development" ? "http://localhost/travelapi/" : "/travelapi/";
 
-const baseURL = "http://localhost:3102/"
+const baseURL = "http://localhost:3101/"
 const apiClient = axios.create({
   baseURL: baseURL,
   headers: {
